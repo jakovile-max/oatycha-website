@@ -138,6 +138,7 @@ body {
 
 .hero-content {
     z-index: 2;
+    text-align: center;
 }
 
 .hero-title {
@@ -166,6 +167,7 @@ body {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn {
