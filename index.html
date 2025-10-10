@@ -72,7 +72,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Về OatyCha</h2>
-                <p>Câu chuyện về thương hiệu trà sữa healthy đầu tiên tại Việt Nam</p>
+                <p>Câu chuyện về thương hiệu trà sữa healthy đầu tiên tại Tây Ninh</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
@@ -273,7 +273,7 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h3>Email</h3>
-                            <p>hello@oatycha.com</p>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6e060b0202012e010f1a170d060f400d0103">[email&#160;protected]</a></p>
                         </div>
                     </div>
                     
@@ -300,26 +300,25 @@
                     <h3>Gửi tin nhắn cho chúng tôi</h3>
                     <form>
                         <div class="form-group">
-                            <input type="text" placeholder="Họ và tên" required>
+                            <label for="name">Họ và tên *</label>
+                            <input type="text" id="name" name="name" required>
                         </div>
+                        
                         <div class="form-group">
-                            <input type="tel" placeholder="Số điện thoại" required>
+                            <label for="phone">Số điện thoại *</label>
+                            <input type="tel" id="phone" name="phone" required>
                         </div>
+                        
                         <div class="form-group">
-                            <input type="email" placeholder="Email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
                         </div>
+                        
                         <div class="form-group">
-                            <select required>
-                                <option value="">Chọn loại yêu cầu</option>
-                                <option value="order">Đặt hàng</option>
-                                <option value="feedback">Góp ý</option>
-                                <option value="cooperation">Hợp tác</option>
-                                <option value="other">Khác</option>
-                            </select>
+                            <label for="message">Tin nhắn *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Chia sẻ về nhu cầu của bạn..."></textarea>
                         </div>
-                        <div class="form-group">
-                            <textarea placeholder="Tin nhắn của bạn" rows="4"></textarea>
-                        </div>
+                        
                         <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
                     </form>
                 </div>
@@ -336,45 +335,53 @@
                         <img src="oatycha-logo.jpeg" alt="OatyCha Logo">
                         <span>OatyCha</span>
                     </div>
-                    <p>Uống ngon dáng đẹp cùng OatyCha - Thương hiệu trà sữa healthy hàng đầu Việt Nam.</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Menu</h3>
-                    <ul>
-                        <li><a href="#home">Trang chủ</a></li>
-                        <li><a href="#about">Về chúng tôi</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#benefits">Lợi ích</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Liên hệ</h3>
-                    <ul>
-                        <li>123 Đường Healthy, Q1, HCM</li>
-                        <li>1900 OATY (6289)</li>
-                        <li>hello@oatycha.com</li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Theo dõi</h3>
-                    <div class="social-icons">
+                    <p>Thương hiệu trà sữa healthy đầu tiên tại Tây Ninh. Uống ngon - Dáng đẹp!</p>
+                    <div class="footer-social">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-tiktok"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
+                
+                <div class="footer-section">
+                    <h3>Sản phẩm</h3>
+                    <ul>
+                        <li><a href="#menu">Classic Oat Milk Tea</a></li>
+                        <li><a href="#menu">Matcha Oat Latte</a></li>
+                        <li><a href="#menu">Berry Oat Smoothie</a></li>
+                        <li><a href="#menu">Chocolate Oat Protein</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Công ty</h3>
+                    <ul>
+                        <li><a href="#about">Về chúng tôi</a></li>
+                        <li><a href="#benefits">Lợi ích sức khỏe</a></li>
+                        <li><a href="#contact">Liên hệ</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Hỗ trợ</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 OatyCha. Tất cả quyền được bảo lưu.</p>
+                <p>&copy; 2024 OatyCha. Tất cả quyền được bảo lưu.</p>
+                <p>Được phát triển bởi MiniMax Agent</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
 </body>
 </html>
